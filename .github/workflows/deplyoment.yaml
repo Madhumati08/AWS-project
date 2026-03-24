@@ -27,4 +27,4 @@ jobs:
         run: terraform init
         
       - name: Terraform Destory
-        run: destroyed file
+        run: terraform destroy
